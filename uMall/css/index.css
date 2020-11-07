@@ -206,9 +206,10 @@
     width:70px;
     height: 195px; 
     background-color:#f8f8f8;
-    position: absolute;
+    position: fixed;
     left: 5px;
-    top: 50px;
+    top: 50%;
+    margin-top:-97.5px;
 }
 .list .leftnav > ul > li{
     line-height: 30px;
