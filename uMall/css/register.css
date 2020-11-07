@@ -30,4 +30,68 @@
     top:50%;
     margin-left:-375px;
     margin-top:-209px;
+    border-top: 3px solid #f36b11;   
+}
+.main .registerbox > h3{
+    margin-top:10px;
+    text-align: center;
+    font:24px/66px "微软雅黑";
+}
+.main .registerbox > form .email,
+.main .registerbox > form .password{
+    width: 380px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #D9D9D9;
+    margin: 13px auto;
+}
+
+.main .registerbox > form .email:hover,
+.main .registerbox > form .password:hover{
+  border: 1px solid #f36b11;
+  color:#f36b11;
+}
+.main .registerbox > form .email > em,
+.main .registerbox > form .password > em
+{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: top;
+}
+.main .registerbox > form  .email >input,
+.main .registerbox > form  .password >input{
+    width: 324px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.main .registerbox > form > .verification > input{
+    width: 210px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    margin: 13px 0 0 184px;
+    padding-left: 5px;
+}
+.main .registerbox > form > .verification > input:hover{
+    border:1px solid #f36b11;
+}
+.main .registerbox > form > .verification > img{
+    margin: 18px 0 0 17px;
+}
+.main .registerbox > form > label{
+    display: inline-block;
+    margin-left: 184px;
+    padding-bottom: 10px; 
+    font:12px/1 "微软雅黑";
+    color:#f36b11;
+}
+.main .registerbox > form > .verlabel{
+    padding-top:13px;
 }
