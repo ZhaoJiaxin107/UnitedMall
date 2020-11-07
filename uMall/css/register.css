@@ -95,3 +95,14 @@
 .main .registerbox > form > .verlabel{
     padding-top:13px;
 }
+.main .registerbox > form > .registerbtn{
+    width: 386px;
+    height: 46px;
+    /* line-height: 46px; */
+    background-color: #f36b11;
+    color:#ffffff;
+    font:20px/46px "微软雅黑";
+    cursor: pointer;
+    border-radius: 6px;
+    margin:22px 0 0 184px;
+}
