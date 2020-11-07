@@ -382,7 +382,6 @@
 .list .container .dajuhui .imgbg > a >.napkin > strong > em{
     color: #fd4d52;
 }
-
 .list .container .dajuhui .phone > ul > li{
     width: 106px;
     height: 74px;
@@ -391,9 +390,8 @@
     margin: 8px 0 0 14px;
     float: left;
 }
-.list .container .dajuhui .phone > ul > li:hover{
-    /* add shadow for the box */
-    box-shadow: 0 0 10px #494949;
+.list .container .dajuhui .phone > ul > li >a > img{
+    width: 106px;
 }
 .list .container .dajuhui .phone > ul > .huawei{
     width: 106px;
