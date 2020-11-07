@@ -23,13 +23,13 @@
 }
 .main .registerbox{
     width: 750px;
-    height: 418px;
+    height: 484px;
     background-color:#ffffff;
     position: absolute;
     left: 50%;
     top:50%;
     margin-left:-375px;
-    margin-top:-209px;
+    margin-top:-242px;
     border-top: 3px solid #f36b11;   
 }
 .main .registerbox > h3{
@@ -105,4 +105,11 @@
     cursor: pointer;
     border-radius: 6px;
     margin:22px 0 0 184px;
+}
+.main .registerbox > form > .hint{
+    text-align: center;
+    padding-top: 35px;
+}
+.main .registerbox > form > .hint > a{
+    color:#f36b11;
 }
