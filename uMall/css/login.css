@@ -15,22 +15,19 @@
     padding-left: 20px;
     margin-left: 24px;
 }
-.mainbg{
-    background-color:#F54B4C;
-}
 .main{
     width: 100%;
     height: 450px;
     position: relative;
 }
 .main .banner{
-    width: 1112px;
     height: 450px;
-    margin: 0 auto;
 }
 .main .banner > img{
+    width: 100%;
     height: 450px;
 }
+
 .main .loginbox{
    width: 350px;
    height: 380px;
@@ -39,6 +36,13 @@
    right: 120px;
    top: 36px;
    border-top: 3px solid #EE6910;
+}
+.main .loginbox > h3{
+    font:18px/1 "微软雅黑";
+    margin: 25px 0 25px 35px;
+}
+.main .loginbox > form .username{
+    
 }
 
 .footer{

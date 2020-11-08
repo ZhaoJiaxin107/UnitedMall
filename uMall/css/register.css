@@ -51,12 +51,6 @@
   border: 1px solid #f36b11;
   color:#f36b11;
 }
-.main .registerbox > form .email:hover em,
-.main .registerbox > form .password:hover em{
-    border-right: 1px solid #f36b11;
-    background-color: #fef9f6;
-}
-
 .main .registerbox > form .email > em,
 .main .registerbox > form .password > em
 {
@@ -69,6 +63,11 @@
     vertical-align: top;
     border-right: 1px solid #D9D9D9;
     background-color: #f4f4f4;
+}
+.main .registerbox > form .email:hover em,
+.main .registerbox > form .password:hover em{
+    border-right: 1px solid #f36b11;
+    background-color: #fef9f6;
 }
 .main .registerbox > form  .email >input,
 .main .registerbox > form  .password >input{
