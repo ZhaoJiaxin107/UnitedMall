@@ -152,24 +152,47 @@
     display: inline-block;
     width: 8px;
     height: 8px;
-    border:1px solid #27a6f7;
+    /* border:1px solid #27a6f7; */
     border-radius: 100%;
     vertical-align: middle;
     margin-left: 30px;
 }
+.main .loginbox > form .loginmethods .QQ{
+    border:1px solid #27a6f7;
+}
+.main .loginbox > form .loginmethods .weibo{
+    border: 1px solid #dc2b1b;
+}
+.main .loginbox > form .loginmethods .wechat{
+    border: 1px solid #1ae647;
+}
+
 .main .loginbox > form .loginmethods .radio:checked+ .radiolabel:after{
     content:"";
     display: block;
     width: 6px;
     height: 6px;
-    background:#27a6f7;
     border-radius: 100%;
     margin-top: 1px; 
     margin-left: 1px;
-   
 }
-.main .loginbox > form .loginmethods .radio:checked + .radiolabel{
+.main .loginbox > form .loginmethods .radio:checked+ .QQ:after{
+    background: #27a6f7;
+}
+.main .loginbox > form .loginmethods .radio:checked+ .weibo:after{
+    background: #dc2b1b;
+}
+.main .loginbox > form .loginmethods .radio:checked+ .wechat:after{
+    background: #1ae647;
+}
+.main .loginbox > form .loginmethods .radio:checked + .QQ{
     border: 1px solid #27a6f7;
+}
+.main .loginbox > form .loginmethods .radio:checked + .weibo{
+    border: 1px solid #dc2b1b;
+}
+.main .loginbox > form .loginmethods .radio:checked + .wechat{
+    border: 1px solid #1ae647;
 }
 .main .loginbox > form .loginmethods .radiodesc{
     font:12px/1 "宋体";
@@ -180,7 +203,6 @@
     font:14px/1 "宋体";
     color: #f36b17;
     margin-left:48px;
-
 }
 
 .footer{
