@@ -41,9 +41,51 @@
     font:18px/1 "微软雅黑";
     margin: 25px 0 25px 35px;
 }
-.main .loginbox > form .username{
-    
+.main .loginbox > form .username,
+.main .loginbox > form .password{
+    width: 280px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #d8d8d8;
 }
+.main .loginbox > form .username{
+    margin: 25px 0 0 34px;
+}
+.main .loginbox > form .password{
+    margin: 13px 0 0 34px;
+}
+.main .loginbox > form .username:hover,
+.main .loginbox > form .password:hover{
+    border: 1px solid #f36b11;
+    color:#f36b11;
+}
+.main .loginbox > form .username > em,
+.main .loginbox > form .password > em{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: top;
+    border-right: 1px solid #d8d8d8;
+    background-color: #f4f4f4;
+    color: #c7c7c7;
+}
+.main .loginbox > form .username:hover > em,
+.main .loginbox > form .password:hover > em{
+    border-right: 1px solid #f36b11;
+    background-color: #fef9f6;
+    color:#f36b11;
+}
+.main .loginbox > form .username > input,
+.main .loginbox > form .password > input
+{
+    height: 36px;
+    font: 14px/36px "微软雅黑";
+    padding-left: 15px;
+}
+
 
 .footer{
     width: 100%;
