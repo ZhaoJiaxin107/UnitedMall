@@ -14,16 +14,19 @@
     height: 36px;
     line-height: 36px;
 }
-.topnav .container > .ulleft >li{
+.topnav .container > .ulleft > li{
     float:left;
     padding-right: 20px;
 }
-.topnav .container > .ulright >li{
-    float:right;
-    padding-right: 12px; 
+.topnav .container > .ulleft > .active{
+    margin-left: 8px;
 }
-.topnav .container> .ulleft> li>a,
-.topnav .container> .ulright> li>a{
+.topnav .container > .ulright >li{
+    float:left;
+    padding-right: 12px;
+}
+.topnav .container> .ulleft> li> a,
+.topnav .container> .ulright> li> a{
     color: #666666;
     font-size: 12px;
 }
@@ -32,12 +35,12 @@
 {
     vertical-align: middle;
     color: #ceccd6;
-}  
+}
 .topnav .container> .ulleft> li> em,
 .topnav .container> .ulright> li> em{
     vertical-align: middle;
     color: #ef6b18;
-} 
+}
 
 /* 头部 */
 .headerbg{
