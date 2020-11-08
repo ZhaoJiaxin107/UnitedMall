@@ -21,6 +21,7 @@
 .main{
     width: 100%;
     height: 450px;
+    position: relative;
 }
 .main .banner{
     width: 1112px;
@@ -30,6 +31,16 @@
 .main .banner > img{
     height: 450px;
 }
+.main .loginbox{
+   width: 350px;
+   height: 380px;
+   background-color: #ffffff; 
+   position: absolute;
+   right: 120px;
+   top: 36px;
+   border-top: 3px solid #EE6910;
+}
+
 .footer{
     width: 100%;
     height: 130px;
