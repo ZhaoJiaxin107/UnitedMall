@@ -144,11 +144,44 @@
     margin-top: 30px;
     border-top: 1px solid #efefef;
 }
-.main .loginbox > form .loginmethods > .QQ > .check{
-    background-color: #27a5f9;
+/* change radio styles */
+.main .loginbox > form .loginmethods .radio{
+    display: none;
 }
+.main .loginbox > form .loginmethods .radiolabel{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border:1px solid #27a6f7;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.main .loginbox > form .loginmethods .radio:checked+ .radiolabel:after{
+    content:"";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background:#27a6f7;
+    border-radius: 100%;
+    margin-top: 1px; 
+    margin-left: 1px;
+   
+}
+.main .loginbox > form .loginmethods .radio:checked + .radiolabel{
+    border: 1px solid #27a6f7;
+}
+.main .loginbox > form .loginmethods .radiodesc{
+    font:12px/1 "宋体";
+    color: #6d6d6d;
+    padding-left: 8px;
+}
+.main .loginbox > form .loginmethods > a{
+    font:14px/1 "宋体";
+    color: #f36b17;
+    margin-left:48px;
 
-
+}
 
 .footer{
     width: 100%;

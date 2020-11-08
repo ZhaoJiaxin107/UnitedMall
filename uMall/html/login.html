@@ -61,19 +61,29 @@
                     <label for="autologin">
                         <input type="checkbox" name="autologin" id="autologin" class = "autologin" checked>
                         <span></span>
-                        <label for = "autologin" class="autologinlabel">自动登录</label>
+                        <b class="autologinlabel">自动登录</b>
                     </label>
                     <a href="#">忘记密码?</a>
                 </p>
 
                 <!-- choose login methods -->
                 <div class="loginmethods">
-                   <input type="radio" name="QQ" id="QQ" onclick="if(this.c==1){this.c=0;this.checked=0}else this.c=1">
-                   <label for="QQ" class = "QQ"></span>QQ</span></label>
-                   <input type="radio" name="weibo" id="weibo" onclick="if(this.c==1){this.c=0;this.checked=0}else this.c=1">
-                   <label for="weibo"><em></em>微博</label>
-                   <input type="radio" name="wechat" id="wechat" onclick="if(this.c==1){this.c=0;this.checked=0}else this.c=1">
-                   <label for="wechat"><em></em>微信</label>
+                    <label for="QQ">
+                        <input type="radio" name="loginmethod" id="QQ" class="radio">
+                        <span class="radiolabel"></span><b class="radiodesc">QQ</b>
+                    </label>
+                    <label for="weibo">
+                        <input type="radio" name="loginmethod" id="weibo" class="radio">
+                        <span class="radiolabel"></span><b class="radiodesc">微博</b>
+                    </label>
+                    <label for="wechat">
+                        <input type="radio" name="loginmethod" id="wechat" class="radio">
+                        <span class="radiolabel"></span><b class="radiodesc">微信</b>
+                    </label>
+                    <a href="#">立即注册</a>
+
+
+                   
                 </div>
             </form>
         </div>
