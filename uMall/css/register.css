@@ -72,7 +72,7 @@
 }
 .main .registerbox > form  .email >input,
 .main .registerbox > form  .password >input{
-    width: 324px;
+    width: 328px; 
     height: 36px;
     line-height: 36px;
     font-size: 14px;
