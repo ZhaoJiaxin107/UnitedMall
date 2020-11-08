@@ -40,4 +40,70 @@
     vertical-align: middle;
     color: #ef6b18;
 }
+/* 头部 */
+.headerbg{
+    background-color: #fff;
+    min-width: 1190px;
+}
+.headernav .container{
+    /* border: 1px solid #ff6600; */
+    /* 父子关系高度塌陷 */
+    overflow: hidden;
+}
+.headernav .container .imgu{
+    padding: 35px 0 30px 0;
+}
+.headernav .container .search{
+    margin: 30px 0 0 158px;
+}
+.headernav .container .search .input{
+    width: 540px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    border: 2px solid #f36b11;
+}
+.headernav .container .search .input > em{
+    vertical-align: middle;
+    font-size: 25px;
+    padding-left: 12px;
+    color: #f7985a;
+}
+.headernav .container .search .input > input{
+    float: left;
+    flex: 4;
+    height: 40px;
+    border-style:none;
+    outline: none;
+    /* border: 2px solid #f36b11; */
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.headernav .container .search .input > button{
+    float : right;
+    flex:1;
+    height:40px;
+    background-color: #ff6501;
+    color:#ffdfd4;
+    border-style: none;
+    outline: none;
+}
+.headernav .container .search .input > button > a{
+    font-size: 18px;
+    color: #ffdfd4;
+}
+.headernav .container .search .headerlist>li{
+    float: left;
+    padding: 14px 0;
+}
+.headernav .container .search .headerlist>li>a{
+    color: #9f9f9f;
+    font-size: 12px/1 "宋体";
+    padding-right: 11px;
+}
+.headernav .container .search .headerlist>li>span{
+    color: #9f9f9f;
+    padding-right: 11px;
+}
+
 
