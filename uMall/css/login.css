@@ -82,14 +82,14 @@
 {
     width: 224px;
     height: 36px;
-    font: 14px/36px "微软雅黑";
+    font: 14px/36px "宋体";
     padding-left: 15px;
 }
 .main .loginbox > form > .verification > input{
     width: 193px;
     height: 36px;
-    line-height: 36px;
-    font-size: 14px;
+    /* line-height: 36px; */
+    font-size: 14px/36px "宋体";
     padding-left:16px;
     border: 1px solid #d8d8d8;
     margin:13px 0 0 35px;    
@@ -102,10 +102,50 @@
     height: 40px;
     background-color: #f36b11;
     color: #ffffff;
-    font: 19px/40px "微软雅黑";
+    font: 19px/40px "宋体";
     cursor: pointer;
     border-radius: 6px;
     margin: 25px 0 0 33px;
+}
+.main .loginbox > form > .hint{
+    font: 12px/1 "宋体";
+    color: #686868;
+    margin-top: 12px;
+}
+
+/* set new checkbox*/
+.main .loginbox > form > .hint >label> .autologin{
+    display: none;
+}
+.main .loginbox > form > .hint >label> .autologin[type=checkbox]+span{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #d7d7d7;
+    color: #b5b5b5;
+    margin-left: 35px;
+    vertical-align: middle;
+}
+.main .loginbox > form > .hint >label>.autologin[type=checkbox]:checked+span:after{
+    content:'\2714';
+    font-size: 14px;
+}
+.main .loginbox > form > .hint >label> .autologinlabel{
+    margin-left:6px;
+}
+
+.main .loginbox > form > .hint > a{
+    color: #686868;
+    margin-left: 147px;  
+}
+.main .loginbox > form .loginmethods{
+    height:50px;
+    line-height: 50px;
+    margin-top: 30px;
+    border-top: 1px solid #efefef;
+}
+.main .loginbox > form .loginmethods > .QQ > .check{
+    background-color: #27a5f9;
 }
 
 
