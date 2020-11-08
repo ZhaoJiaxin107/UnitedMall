@@ -97,6 +97,16 @@
 .main .loginbox > form > .verification > img{
     margin: 18px 0 0 7px;
 }
+.main .loginbox > form > .loginbtn{
+    width: 286px;
+    height: 40px;
+    background-color: #f36b11;
+    color: #ffffff;
+    font: 19px/40px "微软雅黑";
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 25px 0 0 33px;
+}
 
 
 
