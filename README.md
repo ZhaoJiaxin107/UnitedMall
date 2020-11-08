@@ -47,6 +47,14 @@ Sprite graph generated website: https://www.toptal.com/developers/css/sprite-gen
 ### Other Technologies
 ·Anchor link
 
-·Two column layout
+·Two columns layout
 
-### Index Page
+·CSS3 Pseudo class selector(伪类选择器)
+
+
+### Combination
+##### Index Page
+##### Register Page
+##### Login Page
+
+Index Page can turn to login/register page from links, user can also jump between login and register page.
