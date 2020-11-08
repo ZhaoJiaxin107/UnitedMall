@@ -111,7 +111,7 @@
     padding-right: 11px;
 }
 .classificationnav .container > h3{
-    width: 187px;
+    width: 190px;
     height: 40px;
     color: #fff7f5;
     font:16px/40px "微软雅黑";
@@ -122,7 +122,7 @@
 .classificationnav .container > h3 > em{
     font-size: 25px;
     vertical-align: middle;
-    margin-left: 15px;
+    margin-left: 16px;
 }
 .classificationnav .container .rightnav > li {
     float: left;
@@ -136,7 +136,7 @@
     color:#F36B10;
 }
 .classificationnav .container .sidenav{
-    width: 187px;
+    width: 190px;
     height: 462px;
     background-color:rgba(0,0,0,0.7);
     padding-top: 20px;

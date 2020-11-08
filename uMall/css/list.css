@@ -105,5 +105,29 @@
     color: #9f9f9f;
     padding-right: 11px;
 }
+.classificationnav .container > h3{
+    width: 190px;
+    height: 40px;
+    color: #fff7f5;
+    font:16px/40px "微软雅黑";
+    background-color: #ff6501;
+    float: left;
+}
+.classificationnav .container > h3 > em{
+    font-size: 25px;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+.classificationnav .container .rightnav > li {
+    float: left;
+    padding-left: 33px;
+}
+.classificationnav .container .rightnav > li > a{
+    font: bold 16px/40px "微软雅黑";
+    color:#333333;
+}
+.classificationnav .container .rightnav > li > a:hover{
+    color:#F36B10;
+}
 
 
