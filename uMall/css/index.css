@@ -126,7 +126,7 @@
     padding-left: 33px;
 }
 .classificationnav .container .rightnav > li > a{
-    font: 16px/40px "微软雅黑";
+    font: bold 16px/40px "微软雅黑";
     color:#333333;
 }
 .classificationnav .container .rightnav > li > a:hover{
@@ -144,6 +144,13 @@
     height: 30px;
     line-height: 30px;
     text-indent: 10px;
+}
+.classificationnav .container .sidenav>li:hover{
+    background-color: #ffffff;
+}
+.classificationnav .container .sidenav>li:hover a,
+.classificationnav .container .sidenav>li:hover span{
+    color: #333333;
 }
 .classificationnav .container .sidenav>li>a{
     color: #ffffff;
