@@ -259,5 +259,36 @@
 .main .container .rightlist .listchoose .rank > ul > li > a > i{
     color: #b6b6b6;
 }
+.main .container .rightlist .listchoose .page > p{
+    font:12px/46px "宋体";
+    color: #666666;
+}
+.main .container .rightlist .listchoose .page > p > strong{
+    color: #F36B11;
+    font-weight: bold;
+}
+.main .container .rightlist .listchoose .page .leftbtn,
+.main .container .rightlist .listchoose .page .rightbtn{
+    width: 38px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    border: 1px solid #b6b6b6;
+}
+.main .container .rightlist .listchoose .page .leftbtn{
+    margin: 8px 0 0 10px;
+}
+.main .container .rightlist .listchoose .page .rightbtn{
+    margin:8px 10px 0 2px;
+}
+.main .container .rightlist .listchoose .page .leftbtn:hover,
+.main .container .rightlist .listchoose .page .rightbtn:hover{
+    background-color: #FFFFFF;
+}
+.main .container .rightlist .listchoose .page .leftbtn > em,
+.main .container .rightlist .listchoose .page .rightbtn > em{
+    color: #C2C0BF;
+}
+
 
 
