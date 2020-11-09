@@ -172,7 +172,7 @@
 }
 .main .container .active .sec,
 .main .container .sec{
-    padding-top: 3px;
+    padding-top: 5px;
 }
 .main .container .more > a{
     color: #BA9780;
@@ -294,7 +294,7 @@
     height: 395px;
     /* border: 1px solid #333333; */
     float: left;
-    margin: 15px 10px 0 0;
+    margin-top: 15px;
 }
 .main .container .rightlist .itemlist ul > li > a > .img > img{
     width: 240px;
