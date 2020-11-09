@@ -192,7 +192,7 @@
 .main .container .recommend > h3{
     font: 16px/1 "微软雅黑";
     color: #DD610F;
-    padding:15px 0 15px 18px;
+    padding:15px 0 5px 18px;
 }
 .main .container .recommend > ul >li{
     width: 210px;
@@ -206,6 +206,7 @@
     /* border:1px solid #333333;  */
     text-align: center;
     overflow: hidden;
+    margin-top: 10px;
 }
 .main .container .recommend > ul > li > a > .img > img{
     width:130px;
