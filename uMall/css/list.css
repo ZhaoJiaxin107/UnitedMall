@@ -153,21 +153,25 @@
     color: #f36b11;
     border:1px dashed #f36b11;
 }
-tr{
+#phonecontent tr{
     border: 1px solid #EBDFD7;
 }
-td{
+#phonecontent td{
     padding-left: 16px;
-    font:12px/1 "宋体";
+    font:12px/30px "宋体";
     color: #666666;
 }
 .main .container .active{
     background-color: #fcf7f4;
    
 }
-.main .container .active > i{
+.main .container .active >i,
+.main .container .active > .sec >i{
     font-size: 8px;
     color:#f5cfbc;
+}
+.main .container .active .sec{
+    padding-top: 3px;
 }
 .main .container .more > a{
     color: #BA9780;
