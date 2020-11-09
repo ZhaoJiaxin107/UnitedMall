@@ -153,6 +153,31 @@
     color: #f36b11;
     border:1px dashed #f36b11;
 }
+tr{
+    border: 1px solid #EBDFD7;
+}
+td{
+    padding-left: 16px;
+    font:12px/1 "宋体";
+    color: #666666;
+}
+.main .container .active{
+    background-color: #fcf7f4;
+   
+}
+.main .container .active > i{
+    font-size: 8px;
+    color:#f5cfbc;
+}
+.main .container .more > a{
+    color: #BA9780;
+}
+.main .container .more > a > i{
+    font-size: 10px;
+    vertical-align:middle;
+}
+
+
 
 
 
