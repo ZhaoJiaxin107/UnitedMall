@@ -14,8 +14,11 @@
     <link rel="stylesheet" href="../css/list.css">
     <!--  public的样式css -->
     <link rel="stylesheet" href="../css/public.css">
+    <!-- 图标样式 css -->
+    <link rel="stylesheet" href="../assets/fontlist/iconfont.css">
     <!-- 字体样式 css -->
     <link rel="stylesheet" href="../assets/font/iconfont.css">
+    
 </head>
 <body>
     <!-- top-->
@@ -112,7 +115,7 @@
      </div>
     <!-- main -->
     <div class="main">
-        <div class="container">
+        <div class="container clearfix">
             <p class = "phonenav">
                 <a href="#">首页</a>
                 <span>&gt;</span>
@@ -124,7 +127,9 @@
             <!-- table -->
             <table border="0" cellspacing = "0" id="phonecontent">
                 <tr>
-                    <td width = "130" height = "40" class="active"><i class="iconfont icon-jiantou"></i> 畅销品牌</td>
+                    <td width = "130" height = "40" class="active">
+                        <i class="iconfont icon-jiantou"></i> 畅销品牌
+                    </td>
                     <td width = "130" height = "40">Apple(苹果)</td>
                     <td width = "130" height = "40">三星</td>
                     <td width = "130" height = "40">华为</td>
@@ -155,11 +160,7 @@
                     <td width = "130" height = "70">6.95英寸以上<br>5.0英寸以下</td>
                     <td width = "130" height = "70">6.75&minus;6.84英寸<br>6.85&minus;6.94英寸</td>
                     <td width = "130" height = "70">6.65&minus;6.74英寸<br>6.35&minus;6.44英寸</td>
-                    <!-- <td width = "130" height = "70" align="right" class="more">
-                        <a href="#">
-                            更多<i class="iconfont icon-down"></i>
-                        </a>
-                    </td> -->
+                    <td width = "130" height = "70"></td> 
                 </tr>
                 <tr>
                     <td width = "130" height = "40" class="active"><i class="iconfont icon-jiantou"></i> 价格筛选</td>
@@ -219,7 +220,7 @@
             </table>
 
             <!-- recommend list -->
-            <div class="recommend">
+            <div class="recommend fl">
                 <h3>商品推荐</h3>
                 <ul>
                     <li>
@@ -268,6 +269,21 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            
+            <div class="rightlist fr">
+                <div class="listchoose">
+                    <div class="rank fl">
+                       <ul>
+                           <li><a href="#">综合排序<em class="iconfont icon-jiantouarrow505"></em></a>
+                           </li>
+                           <li><a href="#">人气<i class="iconfont icon-shangjiantou1"></i></a>
+                           </li>
+                           <li><a href="#">价格<i class="iconfont icon-shangjiantou1"></i></a>
+                        </li>
+                       </ul>
+                    </div>
+                </div>
             </div>
 
         </div>
