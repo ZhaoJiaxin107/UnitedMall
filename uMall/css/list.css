@@ -170,7 +170,8 @@
     font-size: 8px;
     color:#f5cfbc;
 }
-.main .container .active .sec{
+.main .container .active .sec,
+.main .container .sec{
     padding-top: 3px;
 }
 .main .container .more > a{
