@@ -165,6 +165,16 @@
     background-color: #fcf7f4;
    
 }
+.main .container .content,
+.main .container .sec .content{
+    font:12px/30px "宋体";
+    color: #666666;
+}
+.main .container .content:hover,
+.main .container .sec .content:hover{
+    color: #f36b11;
+    text-decoration: underline;
+}
 .main .container .active >i,
 .main .container .active > .sec >i{
     font-size: 8px;
@@ -366,7 +376,8 @@
     vertical-align: middle;
 }
 .main .container .rightlist .itemlist > ul > li:hover{
-    box-shadow: 0 0 5px #ededed;
+    /* box-shadow: 0 0 5px #ededed; */
+    box-shadow: 0 0 5px #C54349;
 }
 .main .container .rightlist .itemlist > ul > li .operation:hover .shoppingcart,
 .main .container .rightlist .itemlist > ul > li .operation:hover .collect,
