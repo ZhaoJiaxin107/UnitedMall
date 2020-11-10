@@ -16,14 +16,24 @@
 }
 .topnav .container > .ulleft > li{
     float:left;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 .topnav .container > .ulleft > .active{
     margin-left: 8px;
 }
 .topnav .container > .ulright >li{
     float:left;
-    padding-right: 12px;
+    margin-right: 12px;
+}
+.topnav .container > .ulleft > li:hover,
+.topnav .container > .ulright > li:hover
+{
+    background-color: #ffffff;
+}
+.topnav .container > .ulleft > li:hover a,
+.topnav .container > .ulright > li:hover a{
+    color:#f36b11;
+    text-decoration: underline;
 }
 .topnav .container> .ulleft> li> a,
 .topnav .container> .ulright> li> a{
@@ -105,6 +115,9 @@
     color: #9f9f9f;
     font-size: 12px/1 "宋体";
     padding-right: 11px;
+}
+.headernav .container .search .headerlist>li:hover a{
+    color:#f36b11;
 }
 .headernav .container .search .headerlist>li>span{
     color: #9f9f9f;
