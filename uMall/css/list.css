@@ -318,13 +318,13 @@
 .main .container .rightlist .itemlist ul > li{
     width: 240px;
     height: 395px;
-    /* border: 1px solid #333333; */
     float: left;
     margin-top: 5px;
 }
 .main .container .rightlist .itemlist ul > li > a > .img > img{
     width: 240px;
     height: 230px;
+    
 }
 .main .container .rightlist .itemlist > ul > li > a >.price{
     font:20px/36px "Arial";

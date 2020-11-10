@@ -224,3 +224,9 @@ main .container .tvdetail .tvdesc .intro > a{
     color: #F36B10;
     text-decoration: underline;
 }
+main .container .tvdetail .tvdesc .info{
+    width: 735px;
+    height: 130px;
+    background-image: linear-gradient(to right, #fff7ef,#fff0dd,#fff7ef);
+    margin: 20px 0 26px 0;
+}
