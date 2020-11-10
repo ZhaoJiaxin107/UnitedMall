@@ -323,8 +323,7 @@
 }
 .main .container .rightlist .itemlist ul > li > a > .img > img{
     width: 240px;
-    height: 230px;
-    
+    height: 230px;   
 }
 .main .container .rightlist .itemlist > ul > li > a >.price{
     font:20px/36px "Arial";
