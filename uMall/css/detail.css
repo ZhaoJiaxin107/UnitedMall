@@ -229,4 +229,51 @@ main .container .tvdetail .tvdesc .info{
     height: 130px;
     background-image: linear-gradient(to right, #fff7ef,#fff0dd,#fff7ef);
     margin: 20px 0 26px 0;
+    overflow: hidden;
+    position: relative;
+}
+main .container .tvdetail .tvdesc .info > p{
+    margin-left: 17px;
+    font: 12px/1 "宋体";
+    color:#858585; 
+}
+main .container .tvdetail .tvdesc .info .first{
+    margin-top: 20px;
+}
+main .container .tvdetail .tvdesc .info .second{
+    margin-top: 22px;
+}
+main .container .tvdetail .tvdesc .info .third{
+    margin-top: 15px;
+}
+main .container .tvdetail .tvdesc .info .first .price{
+    color:#F36B10;
+    font: 30px/1 "Arial";
+}
+main .container .tvdetail .tvdesc .info .first .cheap{
+    display: inline-block;
+    background-image: url("../images/sprite.png");
+    background-repeat: no-repeat;
+    width: 95px;
+    height: 14px;
+    background-position:left -124px;
+}
+main .container .tvdetail .tvdesc .info .second .commentnum{
+    font: 12px "宋体";
+    color:#F26B10;
+    text-decoration: underline;
+}
+main .container .tvdetail .tvdesc .info .third .carryprice{
+    color:#363636;
+}
+main .container .tvdetail .tvdesc .info .collect{
+    font-size: 12x;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+}
+main .container .tvdetail .tvdesc .info .collect > em{
+    visibility: top;
+    color: #F68D4A;
 }
