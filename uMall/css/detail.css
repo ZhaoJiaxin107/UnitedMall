@@ -364,3 +364,51 @@ main .container .tvdetail .tvdesc .addpurchase .purchase{
     background-color: #FEF9F6;
     color:#F46C15;
 }
+/* recommend list */
+main .container .recommend{
+    width: 210px;
+    height: 1255px;
+    border: 1px solid #e5e5e5;
+    margin-top: 23px;
+    border-top: 2px solid #FF8F45;
+}
+main .container .recommend > h3{
+    font: 16px/1 "微软雅黑";
+    color: #DD610F;
+    padding:15px 0 5px 18px;
+}
+main .container .recommend > ul >li{
+    width: 210px;
+    height: 230px;
+    /* border: 1px solid blueviolet; */
+}
+main .container .recommend > ul >li:hover .desc{
+    text-decoration: underline;
+}
+main .container .recommend > ul > li > a > .img{
+    width: 175px;
+    height: 160px;
+    /* line-height: 160px; */
+    margin-left: 18px;
+    /* border:1px solid #333333;  */
+    text-align: center;
+    overflow: hidden;
+    margin-top: 10px;
+}
+main .container .recommend > ul > li > a > .img > img{
+    width:130px;
+    height: 130px;
+    margin-top: 13px;
+}
+main .container .recommend > ul > li > a > .desc,
+main .container .recommend > ul > li > a > .price{
+    margin-left: 18px;
+}
+main .container .recommend > ul > li > a > .desc{
+    font:12px/20px "宋体";
+    color:#666666;
+}
+main .container .recommend > ul > li > a > .price{
+    font:14px/23px "微软雅黑";
+    color:#F58347;
+}

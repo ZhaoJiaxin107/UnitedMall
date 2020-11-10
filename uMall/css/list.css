@@ -207,7 +207,7 @@
 /* recommend list */
 .main .container .recommend{
     width: 210px;
-    height: 1215px;
+    height: 1255px;
     border: 1px solid #e5e5e5;
     margin-top: 23px;
     border-top: 2px solid #FF8F45;
@@ -219,7 +219,7 @@
 }
 .main .container .recommend > ul >li{
     width: 210px;
-    height: 219px;
+    height: 230px;
 }
 .main .container .recommend > ul >li:hover .desc{
     text-decoration: underline;
