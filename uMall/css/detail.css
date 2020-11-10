@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* 版心，内容有效区 */
+.container{
+    width: 1190px;
+    margin: 0 auto;
+}
+/* top */
+.topbg{
+    background-color: #f7f7f7;
+    min-width: 1190px;
+}
+.topnav{
+    height: 36px;
+    line-height: 36px;
+}
+.topnav .container > .ulleft > li{
+    float:left;
+    margin-right: 20px;
+}
+.topnav .container > .ulleft > .active{
+    margin-left: 8px;
+}
+.topnav .container > .ulright >li{
+    float:left;
+    margin-right: 12px;
+}
+.topnav .container > .ulleft > li:hover,
+.topnav .container > .ulright > li:hover
+{
+    background-color: #ffffff;
+}
+.topnav .container > .ulleft > li:hover a,
+.topnav .container > .ulright > li:hover a{
+    color:#f36b11;
+    text-decoration: underline;
+}
+.topnav .container> .ulleft> li> a,
+.topnav .container> .ulright> li> a{
+    color: #666666;
+    font-size: 12px;
+}
+.topnav .container> .ulleft> li> i,
+.topnav .container> .ulright> li> i
+{
+    vertical-align: middle;
+    color: #ceccd6;
+}
+.topnav .container> .ulleft> li> em,
+.topnav .container> .ulright> li> em{
+    vertical-align: middle;
+    color: #ef6b18;
+}
+/* 头部 */
+.headerbg{
+    background-color: #fff;
+    min-width: 1190px;
+}
+.headernav .container{
+    /* border: 1px solid #ff6600; */
+    /* 父子关系高度塌陷 */
+    overflow: hidden;
+}
+.headernav .container .imgu{
+    padding: 35px 0 30px 0;
+}
+.headernav .container .search{
+    margin: 30px 0 0 158px;
+}
+.headernav .container .search .input{
+    width: 540px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    border: 2px solid #f36b11;
+}
+.headernav .container .search .input > em{
+    vertical-align: middle;
+    font-size: 25px;
+    padding-left: 12px;
+    color: #f7985a;
+}
+.headernav .container .search .input > input{
+    float: left;
+    flex: 4;
+    height: 40px;
+    border-style:none;
+    outline: none;
+    /* border: 2px solid #f36b11; */
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.headernav .container .search .input > button{
+    float : right;
+    flex:1;
+    height:40px;
+    background-color: #ff6501;
+    color:#ffdfd4;
+    border-style: none;
+    outline: none;
+}
+.headernav .container .search .input > button > a{
+    font-size: 18px;
+    color: #ffdfd4;
+}
+.headernav .container .search .headerlist>li{
+    float: left;
+    padding: 14px 0;
+}
+.headernav .container .search .headerlist>li>a{
+    color: #9f9f9f;
+    font-size: 12px/1 "宋体";
+    padding-right: 11px;
+}
+.headernav .container .search .headerlist>li:hover a{
+    color:#f36b11;
+}
+.headernav .container .search .headerlist>li>span{
+    color: #9f9f9f;
+    padding-right: 11px;
+}
+.classificationnav .container > h3{
+    width: 190px;
+    height: 40px;
+    color: #fff7f5;
+    font:16px/40px "微软雅黑";
+    background-color: #ff6501;
+    float: left;
+}
+.classificationnav .container > h3 > em{
+    font-size: 25px;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+.classificationnav .container .rightnav > li {
+    float: left;
+    padding-left: 33px;
+}
+.classificationnav .container .rightnav > li > a{
+    font: bold 16px/40px "微软雅黑";
+    color:#333333;
+}
+.classificationnav .container .rightnav > li > a:hover{
+    color:#F36B10;
+}
+main{
+    width: 100%;
+    border-top: 2px solid #F36B10;
+}
+main .container .tvnav{
+    height: 53px;
+    width: 100%;
+}
+main .container .tvnav > a,
+main .container .tvnav > span{
+    font:12px/53px "宋体";
+    color: #666666;
+    margin-right: 8px;
+}
+main .container .tvdetail .tvpanel .tvimg{
+    border: 1px solid pink;
+    margin-top: 12px;
+    position: relative;
+}
+main .container .tvdetail .tvpanel .tvimg,
+main .container .tvdetail .tvpanel .tvimg > img{
+    width: 420px;
+    height: 420px;
+}
+main .container .tvdetail .tvpanel .tvimg > i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color:rgba(226,216,203,0.3);
+    color: #bdbcb9;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+main .container .tvdetail .tvpanel .chooseitem{
+    width: 420px;
+    height: 70px;
+    border: 1px solid blue;
+    margin-top: 15px;
+    overflow: hidden;
+}
+main .container .tvdetail .tvpanel .chooseitem > img{
+    width:353px;
+    height: 70px;
+
+}
+main .container .tvdetail .tvpanel .chooseitem .leftarrow,
+main .container .tvdetail .tvpanel .chooseitem .rightarrow{
+    display: inline-block;
+    background-image: url("../images/sprite.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 70px;
+    padding-top: 2px;
+}
+main .container .tvdetail .tvpanel .chooseitem .leftarrow{
+    background-position:0 -142px;
+}
+main .container .tvdetail .tvpanel .chooseitem .rightarrow{
+    background-position:-38px -142px;
+}
