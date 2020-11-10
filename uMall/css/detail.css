@@ -205,3 +205,22 @@ main .container .tvdetail .tvpanel .chooseitem .leftarrow{
 main .container .tvdetail .tvpanel .chooseitem .rightarrow{
     background-position:-38px -142px;
 }
+main .container .tvdetail .tvdesc{
+    width: 735px;
+    height: 510px;
+    border: 1px solid #333333;
+    margin: 12px 0 0 30px;
+}
+main .container .tvdetail .tvdesc > h3{
+    color: #242424;
+    font: bold 16px/30px "微软雅黑";
+}
+main .container .tvdetail .tvdesc .intro{
+    padding-top: 20px;
+    font: 14px/30px "微软雅黑";
+    color:#7f7f7f; 
+}
+main .container .tvdetail .tvdesc .intro > a{
+    color: #F36B10;
+    text-decoration: underline;
+}
