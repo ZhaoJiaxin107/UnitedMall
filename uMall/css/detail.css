@@ -277,30 +277,30 @@ main .container .tvdetail .tvdesc .info .collect > em{
     visibility: top;
     color: #F68D4A;
 }
-main .container .tvdetail .choosetype{
-
-}
-main .container .tvdetail .choosetype > span{
+/* main .container .tvdetail .choosetype{
+    border: 1px solid #333;
+} */
+main .container .tvdetail .tvdesc .choosetype > span{
     color:#898989;
     font-family: "宋体";
     float: left;
     padding-top:8px;
 }
-main .container .tvdetail .choosetype ul > li{
+main .container .tvdetail .tvdesc .choosetype ul > li{
     width:240px;
     height:30px;
     border:2px solid #EBEBEB;
     float: left;
     text-align: center;
 }
-main .container .tvdetail .choosetype ul > li> a{
+main .container .tvdetail .tvdesc .choosetype ul > li> a{
     color:#666666;
     font:14px/30px "宋体";
 }
-main .container .tvdetail .choosetype ul > li:hover{
+main .container .tvdetail .tvdesc .choosetype ul > li:hover{
     border:2px solid #F46515;
 }
-main .container .tvdetail .choosetype ul > li:hover a{
+main .container .tvdetail .tvdesc .choosetype ul > li:hover a{
     color:#F46515;;
 }
 .ml20{
@@ -313,6 +313,36 @@ main .container .tvdetail .choosetype ul > li:hover a{
 .mt10{
     margin-top:10px;
 }
+.mt25{
+    margin-top: 25px;
+}
 .ml68{
     margin-left: 68px;
+}
+
+main .container .tvdetail .tvdesc .purchasenum > span{
+    color:#898989;
+    font-family: "宋体";
+    padding: 8px 24px 0 0;
+}
+main .container .tvdetail .tvdesc .purchasenum > i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #bbbbbb;
+    border: 1px solid #cecece;
+    margin-left: -5px;
+}
+main .container .tvdetail .tvdesc .purchasenum > input{
+    width: 45px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #bbbbbb;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-left: -4px;
 }
