@@ -1,4 +1,23 @@
 @charset "utf-8";
+.ml20{
+    margin-left: 20px;
+ }
+ .mr20{
+     margin-right: 20px;
+ }
+ 
+ .mt10{
+     margin-top:10px;
+ }
+ .mt25{
+     margin-top: 25px;
+ }
+ .ml68{
+     margin-left: 68px;
+ }
+ .ml18{
+     margin-left: 18px;
+ }
 /* 版心，内容有效区 */
 .container{
     width: 1190px;
@@ -182,13 +201,12 @@ main .container .tvdetail .tvpanel .chooseitem{
     width: 420px;
     height: 70px;
     border: 1px solid blue;
-    margin-top: 15px;
+    margin-top: 23px;
     overflow: hidden;
 }
 main .container .tvdetail .tvpanel .chooseitem > img{
     width:353px;
     height: 70px;
-
 }
 main .container .tvdetail .tvpanel .chooseitem .leftarrow,
 main .container .tvdetail .tvpanel .chooseitem .rightarrow{
@@ -207,7 +225,7 @@ main .container .tvdetail .tvpanel .chooseitem .rightarrow{
 }
 main .container .tvdetail .tvdesc{
     width: 735px;
-    height: 510px;
+    height: 523px;
     border: 1px solid #333333;
     margin: 12px 0 0 30px;
 }
@@ -303,22 +321,7 @@ main .container .tvdetail .tvdesc .choosetype ul > li:hover{
 main .container .tvdetail .tvdesc .choosetype ul > li:hover a{
     color:#F46515;;
 }
-.ml20{
-   margin-left: 20px;
-}
-.mr20{
-    margin-right: 20px;
-}
 
-.mt10{
-    margin-top:10px;
-}
-.mt25{
-    margin-top: 25px;
-}
-.ml68{
-    margin-left: 68px;
-}
 
 main .container .tvdetail .tvdesc .purchasenum > span{
     color:#898989;
@@ -345,4 +348,19 @@ main .container .tvdetail .tvdesc .purchasenum > input{
     box-sizing: border-box;
     vertical-align: top;
     margin-left: -4px;
+}
+main .container .tvdetail .tvdesc .addpurchase > button{
+    width: 186px;
+    height: 45px;  
+    font:bold 16px/45px "微软雅黑";
+    cursor: pointer;
+}
+main .container .tvdetail .tvdesc .addpurchase .add{
+    color:#fafbf3;
+    background-color: #f26a12;
+}
+main .container .tvdetail .tvdesc .addpurchase .purchase{
+    border: 1px solid #F46C15;
+    background-color: #FEF9F6;
+    color:#F46C15;
 }
