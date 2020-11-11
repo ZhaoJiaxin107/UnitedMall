@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* 版心，内容有效区 */
+.container{
+    width: 1190px;
+    margin: 0 auto;
+}
+/* top */
+.topbg{
+    background-color: #f7f7f7;
+    min-width: 1190px;
+}
+.topnav{
+    height: 36px;
+    line-height: 36px;
+}
+.topnav .container .leftnav,
+.topnav .container .leftnav > a,
+.topnav .container .rightnav > ul > li > a,
+.topnav .container .rightnav > ul > li > span{
+    font:12px/36px "微软雅黑";
+    color:#999999;
+}
+.topnav .container .leftnav > a{
+    padding: 0 12px;
+}
+.topnav .container .rightnav > ul > li {
+    float: left;
+}
+.topnav .container .rightnav > ul > li > a{
+    padding: 0 20px;
+}
+.topnav .container .leftnav > a:hover,
+.topnav .container .rightnav > ul > li > a:hover{
+    color: #f36b11;
+}
+
