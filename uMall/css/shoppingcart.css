@@ -33,4 +33,85 @@
 .topnav .container .rightnav > ul > li > a:hover{
     color: #f36b11;
 }
-
+header .container .logo{
+    padding:32px 0;
+}
+header .container .logo > span{
+    display: inline-block;
+    font: 25px/50px "微软雅黑";
+    color:#666666; 
+    padding-left: 20px;
+    margin-left: 25px;
+    border-left: 1px solid #e9e9e9;
+}
+header .container .ordernav > ul > li{
+    width: 156px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+}
+header .container .ordernav > ul > .first{
+    border-top:3px solid #ffcbab;
+    position: relative;
+}
+header .container .ordernav > ul > .first::before{
+    content: "1";
+    position: absolute;
+    top:-12.5px;
+    left: 50%;
+    margin-left: -12.5px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background-color: #ffcbab;
+    color:#ffffff;
+}
+header .container .ordernav > ul > .second{
+    border-top:3px solid #f36b11;
+    position: relative;
+}
+header .container .ordernav > ul > .second::before{
+    content: "2";
+    position: absolute;
+    top:-12.5px;
+    left: 50%;
+    margin-left: -12.5px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background-color: #f36b11;
+    color:#ffffff;
+}
+header .container .ordernav > ul > .third{
+    border-top:3px solid #e0e0e0;
+    position: relative;
+}
+header .container .ordernav > ul > .third::before{
+    content: "3";
+    position: absolute;
+    top:-12.5px;
+    left: 50%;
+    margin-left: -12.5px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    color:#ffffff;
+}
+header .container .ordernav > ul > li > a{
+    font: 12px/50px "宋体";
+}
+header .container .ordernav > ul > .first > a{
+    color:#ffcbab;
+}
+header .container .ordernav > ul > .second > a{
+    color:#f36b11;
+}
+header .container .ordernav > ul > .third > a{
+    color:#e0e0e0;
+}
