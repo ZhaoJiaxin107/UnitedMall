@@ -18,6 +18,12 @@
  .ml18{
      margin-left: 18px;
  }
+ .ml-4{
+     margin-left: -4px;
+ }
+ .ml-5{
+     margin-left: -5px;
+ }
 /* 版心，内容有效区 */
 .container{
     width: 1190px;
@@ -412,3 +418,69 @@ main .container .recommend > ul > li > a > .price{
     font:14px/23px "微软雅黑";
     color:#F58347;
 }
+main .container .rightpanel{
+    width: 954px;
+    height: 4136px;
+    border:1px solid #333;
+    margin:23px 0 0 22px;
+}
+main .container .rightpanel .productdetail .productparameter{
+    width: 100%;
+    height: 227px;
+    border: 1px solid #f2f2f2;
+    position: relative;
+    border-top-style: none;
+}
+main .container .rightpanel .productdetail .productparameter::before{
+    content: "";
+    position: absolute;
+    right:0;
+    top:-2px;
+    width: 59.6%;
+    height: 1px;
+    background-color:#f2f2f2;
+}
+main .container .rightpanel .productdetail .label> a{
+    display: inline-block;
+    height: 40px;
+    font:14px/40px "微软雅黑";
+    color: #676767;
+    text-align: center;
+    border: 2px solid #f2f2f2;
+    padding: 0 28px;
+}
+main .container .rightpanel .productdetail .label > a:nth-of-type(-n+2){
+    border-right-style: none;
+}
+main .container .rightpanel .productdetail .label .productcomment > b{
+    font:12px/1 "微软雅黑";
+    color:#f58347;
+}
+main .container .rightpanel .productdetail .label > a:hover{
+    border-top: 3px solid #ff8f45;
+    border-bottom: none;
+    color: #ff8f45;
+}
+main .container .rightpanel .productdetail .productparameter > dl{
+    font:12px/30px "宋体";
+    color: #666666;
+}
+main .container .rightpanel .productdetail .productparameter> dl >dt{
+    font-weight: bold;
+} 
+main .container .rightpanel .productdetail .productparameter .firstcol{
+    margin:25px 0 0 40px;
+}
+main .container .rightpanel .productdetail .productparameter .secondcol,
+main .container .rightpanel .productdetail .productparameter .thirdcol{
+    margin:53px 0 0 50px;
+}
+main .container .rightpanel .productdetail .productparameter .moreparameter{
+    color:#2093c2;
+    font:12px/1 "宋体";
+    position: absolute;
+    right: 40px;
+    top: 150px;
+}
+
+
