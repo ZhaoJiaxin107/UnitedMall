@@ -185,7 +185,7 @@ main .container .tvnav > span{
     margin-right: 8px;
 }
 main .container .tvdetail .tvpanel .tvimg{
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     margin-top: 12px;
     position: relative;
 }
@@ -209,7 +209,6 @@ main .container .tvdetail .tvpanel .tvimg > i{
 main .container .tvdetail .tvpanel .chooseitem{
     width: 420px;
     height: 70px;
-    border: 1px solid blue;
     margin-top: 23px;
     overflow: hidden;
 }
@@ -235,7 +234,7 @@ main .container .tvdetail .tvpanel .chooseitem .rightarrow{
 main .container .tvdetail .tvdesc{
     width: 735px;
     height: 523px;
-    border: 1px solid #333333;
+    /* border: 1px solid #333333; */
     margin: 12px 0 0 30px;
 }
 main .container .tvdetail .tvdesc > h3{
@@ -304,9 +303,6 @@ main .container .tvdetail .tvdesc .info .collect > em{
     visibility: top;
     color: #F68D4A;
 }
-/* main .container .tvdetail .choosetype{
-    border: 1px solid #333;
-} */
 main .container .tvdetail .tvdesc .choosetype > span{
     color:#898989;
     font-family: "宋体";
@@ -424,7 +420,7 @@ main .container .recommend > ul > li > a > .price{
 main .container .rightpanel{
     width: 954px;
     height: 4136px;
-    border:1px solid #333;
+    /* border:1px solid #333; */
     margin:23px 0 0 22px;
 }
 main .container .rightpanel .productdetail .productparameter{
