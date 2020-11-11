@@ -512,6 +512,7 @@ main .container .advertise .adnav > ul > li > a:hover{
 }
 main .container .advertise .adnav > ul > li > a:hover i{
     background-color:  #e8680d;
+    border-style: none;
 }
 
 main .container .advertise .adnav > ul > li > a > i{
@@ -525,5 +526,44 @@ main .container .advertise .adnav > ul > li > a > i{
     border: 1px solid #bababa;
     background-color:#e7e7e7;
     z-index:2;
+}
+footer{
+    height: 356px;
+    background-color: #333333;
+    color:#88888A;
+    overflow: hidden;
+}
+footer .comment{
+    width: 100px;
+    height: 233px;
+    /* border:1px solid #ffffff;  */
+    margin:17px 0 0 88px;
+    text-align: left;
+}
+footer .active{
+    margin-left: 240px;
+}
+footer .comment > dl > dt {
+    font: 18px/50px "微软雅黑";
+}
+footer .comment > dl > .first{
+    margin-top:3px;
+}
+footer .comment > dl > dd{
+    font: 14px/30px "微软雅黑";
+}
+footer  hr{
+   margin-top: 0;
+   width: 100%;
+   background-color: #616161;
+   border:none;
+   height:0.8px;
+}
+footer .copyright{
+    text-align: center;
+}
+footer .copyright > p{
+    margin-top: 30px;
+    font: 12px/30px "宋体";
 }
 
