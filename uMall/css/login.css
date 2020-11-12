@@ -129,7 +129,11 @@
 }
 .main .loginbox > form > .hint >label>.autologin[type=checkbox]:checked+span:after{
     content:'\2714';
+    display: inline-block;
     font-size: 14px;
+    width:14px;
+    height: 14px;
+    text-align: center;
 }
 .main .loginbox > form > .hint >label> .autologinlabel{
     margin-left:6px;
