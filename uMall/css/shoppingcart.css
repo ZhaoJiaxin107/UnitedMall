@@ -182,12 +182,16 @@ main .container .purchasenum > input{
     text-align: center;
     color:#bbbbbb;
     border: 1px solid #cecece;
-    margin-left: -4px;
 }
 main .container .purchasenum > input{
     width:45px;
     box-sizing: content-box;
     vertical-align: top;
+    margin-left: -4px;
+    border-left-style: none;
+}
+main .container .purchasenum .plus{
+    margin-left: -4px;
 }
 main .container .sumup{
     font: 16px/1 "Arial";
