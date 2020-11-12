@@ -42,6 +42,7 @@
     </nav>
 
     <div style="clear: both;"></div>
+
     <!-- header -->
     <header>
         <div class="container clearfix">
@@ -59,4 +60,56 @@
         </div>
     </header>
     
+    <!-- main -->
+    <main>
+        <div class="container">
+            <table border="1" cellspacing = "0" id = "shoppingcartinfo">
+                <thead>
+                   
+                    <tr>
+                        <th width = "75px" height = "42px">
+                            <label for="checkall">
+                                <input type="checkbox" name="checkall" id="checkall" class="checkall">
+                                <span></span>全选
+                            </label>
+                        </th>
+                        <th width = "400px" height = "42px">商品</th>
+                        <th width = "135px" height = "42px">单价</th>
+                        <th width = "230px" height = "42px">购买数量</th>
+                        <th width = "150px" height = "42px">小计</th>
+                        <th width = "200px" height = "42px">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width = "75px" height = "90px" colspan="2" align="left" valign = "top" class="pt20">
+                            <label for="checkall1">
+                                <input type="checkbox" name="checkall" id="checkall1" class="checkall">
+                                <span class = "checkallspan fl"></span>
+                            </label>
+                            <img src="../images/k5.webp" alt="cosmetics" class ="shoppingitem fl"> 
+                            <div class="shoppingdesc fl">
+                                Texamo黛末烁影系列26支化妆刷子套装眼
+                                <br><br>
+                                <b>颜色分类:粉红&nbsp;&nbsp;刷毛材质:人造纤维</b>
+                            </div>
+                            <div style="clear: both;"></div>
+                        </td>
+                        <td width = "135px" height = "90px" align="center" valign="top" class="price pt20">￥109.00</td>
+                        <td width = "230px" height = "90px" align="center" valign="top" class="purchasenum pt20">
+                            <i class="iconfont icon-subtract"></i>
+                            <input type="number" min="1" step="1" value="1">
+                            <i class="iconfont icon-jiahao"></i>
+                        </td>
+                        <td width = "150px" height = "90px" align="center" valign="top" class="pt20 sumup">￥318.00</td>
+                        <td width = "115px" height = "90px" align="left" valign="top" class="pt20 pl85 operation">
+                            <strong>删除</strong><br>
+                            <strong>移入收藏夹</strong>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
 </body>
+</html>

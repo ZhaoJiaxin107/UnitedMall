@@ -484,6 +484,9 @@ main .container .rightpanel .productdetail .productparameter .moreparameter{
 main .container .advertise{
     position: relative;
 }
+main .container .advertise > img{
+    vertical-align: bottom;
+}
 main .container .advertise .adnav{
     width: 150px;
     height: 1170px;
