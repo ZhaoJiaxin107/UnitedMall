@@ -126,12 +126,15 @@ header .container .ordernav > ul > .third > a{
 }
 #shoppingcartinfo thead{
     background-color: #f5f5f5;
-    border: 1px solid #dcdcdc;
+    /* border: 1px solid #dcdcdc; */
 }
 
 #shoppingcartinfo tr th{
     font: 12px/1 "宋体";
     color:#666666;
+}
+#shoppingcartinfo tr{
+    border: 1px solid #dcdcdc;
 }
 main .container .checkall{
     display: none;
@@ -154,6 +157,7 @@ main .container .checkall[type=checkbox]:checked+span:after{
     height: 14px;
     border: 1px solid #F36B10;
     color:#F36B10;
+    text-align: center;
 }
 main .container .checkallspan{
     display: inline-block;
@@ -205,5 +209,6 @@ main .container .operation strong:hover{
     color:#F36B10;
     text-decoration: underline;
 }
+
 
 
