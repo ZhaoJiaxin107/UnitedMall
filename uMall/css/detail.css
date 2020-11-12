@@ -333,24 +333,22 @@ main .container .tvdetail .tvdesc .purchasenum > span{
     font-family: "宋体";
     padding: 8px 24px 0 0;
 }
-main .container .tvdetail .tvdesc .purchasenum > i{
-    display: inline-block;
+main .container .tvdetail .tvdesc .purchasenum > i,
+main .container .tvdetail .tvdesc .purchasenum > input{
     width: 30px;
     height: 30px;
     line-height: 30px;
     text-align: center;
     color: #bbbbbb;
     border: 1px solid #cecece;
+}
+main .container .tvdetail .tvdesc .purchasenum > i{
+    display: inline-block;
     margin-left: -5px;
 }
 main .container .tvdetail .tvdesc .purchasenum > input{
     width: 45px;
-    height: 32px;
-    line-height: 32px;
-    text-align: center;
-    color: #bbbbbb;
-    border: 1px solid #cecece;
-    box-sizing: border-box;
+    box-sizing: content-box;
     vertical-align: top;
     margin-left: -4px;
 }
