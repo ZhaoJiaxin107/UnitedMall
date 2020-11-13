@@ -479,13 +479,13 @@ main .container .rightpanel .productdetail .productparameter .moreparameter{
     right: 40px;
     top: 150px;
 }
-main .container .advertise{
+main .container .rightpanel .advertise{
     position: relative;
 }
-main .container .advertise > img{
+main .container .rightpanel .advertise > img{
     vertical-align: bottom;
 }
-main .container .advertise .adnav{
+main .container .rightpanel .advertise .adnav{
     width: 150px;
     height: 1170px;
     background-color: #f6f6f6;
@@ -494,7 +494,7 @@ main .container .advertise .adnav{
     right: 0;
     top:0;
 }
-main .container .advertise .adnav > ul > li{
+main .container .rightpanel .advertise .adnav > ul > li{
     width: 80px;
     height: 40px;
     border-left: 1px solid #DEDEDE;
@@ -503,20 +503,20 @@ main .container .advertise .adnav > ul > li{
     z-index: 0;
 }
 
-main .container .advertise .adnav > ul > li > a{
+main .container .rightpanel .advertise .adnav > ul > li > a{
     padding-left: 20px;
     font: 14px/1 "微软雅黑";
     color:#515151;
 }
-main .container .advertise .adnav > ul > li > a:hover{
+main .container .rightpanel .advertise .adnav > ul > li > a:hover{
     color: #e8680d;
 }
-main .container .advertise .adnav > ul > li > a:hover i{
+main .container .rightpanel .advertise .adnav > ul > li > a:hover i{
     background-color:  #e8680d;
     border-style: none;
 }
 
-main .container .advertise .adnav > ul > li > a > i{
+main .container .rightpanel .advertise .adnav > ul > li > a > i{
     display: block;
     width:10px;
     height: 10px;
