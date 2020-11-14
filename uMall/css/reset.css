@@ -40,13 +40,11 @@ body{
     font-size:12px;
     line-height:1;
 }
-button{
+button, input{
     border: none;
+    outline: none;
 }
-input{
-    border:none;
-    outline:none;
-}
+
 
 /*public style*/
 .clearfix{
