@@ -9,6 +9,9 @@
  .mt10{
      margin-top:10px;
  }
+ .mt15{
+     margin-top: 15px;
+ }
  .mt25{
      margin-top: 25px;
  }
@@ -26,6 +29,15 @@
  }
  .ml-5{
      margin-left: -5px;
+ }
+ .pl65{
+     padding-left: 65px;
+ }
+ .pr30{
+     padding-right: 30px;
+ }
+ .pr15{
+     padding-right: 15px;
  }
 /* 版心，内容有效区 */
 .container{
@@ -419,7 +431,7 @@ main .container .recommend > ul > li > a > .price{
 main .container .rightpanel{
     width: 954px;
     height: 4136px;
-    /* border:1px solid #333; */
+    border:1px solid #333;
     margin:23px 0 0 22px;
 }
 
@@ -501,7 +513,62 @@ main .container .rightpanel .commentnav .active{
     margin-left: 20px;
     color:#f36b11;
 }
+main .container .rightpanel .commentlist{
+    width: 100%;
+    /* overflow: hidden; */
+    
+}
+main .container .rightpanel .commentlist .commentitem{
+    width: 100%;
+    border-bottom: 1px solid #dedede;
+}
+main .container .rightpanel .commentlist .commentitem .avatar{
+    font-size: 26px;
+    vertical-align: top;
+    float: left;
+    margin-left: 10px;
+    /* margin: 20px 0 0 10px; */
+}
+main .container .rightpanel .commentlist .commentitem .avatar .nickname{
+    font: 14px/1 "微软雅黑";
+    color:#6d6272;
+}
+main .container .rightpanel .commentlist .commentitem .commentcontent{
+    margin: 20px 0 0 164px;
+    height: 100%;
+}
+main .container .rightpanel .commentlist .commentitem .commentcontent > em{
+    color:#e33f3d;
+}
+main .container .rightpanel .commentlist .commentitem .commentcontent > p{
+    padding-top: 16px;
+    font:14px/26px "微软雅黑";
+    color:#000000;
+}
+main .container .rightpanel .commentlist .commentitem .commentcontent .commentpic02{
+    margin-top: 15px;
+}
+main .container .rightpanel .commentlist .commentitem .commentcontent .explain{
+    padding:19px 0;
+}
+main .container .rightpanel .commentlist .commentitem .commentcontent .explain > span{
+    font:12px/1 "微软雅黑";
+    color:#9C9DA2;
+}
+main .container .rightpanel .commentlist .commentitem .commentcontent .explain > ul > li > i{
+    vertical-align: middle;
 
+}
+main .container .rightpanel .commentlist .commentitem .commentcontent .addcomment{
+    padding: 16px 0 25px 0;
+}
+main .container .rightpanel .commentlist .commentitem .commentcontent .addcomment > h3{
+    color:#9C9DA2;
+    font: 12px/28px "微软雅黑";
+}
+main .container .rightpanel .commentlist .commentitem .commentcontent .addcomment > p{
+    font:14px/1 "微软雅黑";
+}
 footer{
     height: 356px;
     background-color: #333333;
