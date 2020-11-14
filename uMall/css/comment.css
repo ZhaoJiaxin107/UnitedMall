@@ -431,7 +431,6 @@ main .container .recommend > ul > li > a > .price{
 main .container .rightpanel{
     width: 954px;
     height: 4071px;
-    border:1px solid #333;
     margin:23px 0 0 22px;
 }
 
@@ -568,6 +567,22 @@ main .container .rightpanel .commentlist .commentitem .commentcontent .addcommen
 }
 main .container .rightpanel .commentlist .commentitem .commentcontent .addcomment > p{
     font:14px/1 "微软雅黑";
+}
+main .container .rightpanel .pagenum {
+    margin-top: 17px;
+}
+main .container .rightpanel .pagenum > a{
+    display: inline-block;
+    font:12px/1 "微软雅黑";
+    color:#3b3120;
+    padding: 10px 19px;
+    border: 1px solid #e4e4e4;
+    background-color: #f6f6f6;
+}
+main .container .rightpanel .pagenum .first{
+    color: #E34249;
+    border: none;
+    background-color: #ffffff;
 }
 footer{
     height: 356px;
