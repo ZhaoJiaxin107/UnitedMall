@@ -455,6 +455,7 @@
     margin: 0 6px 0 6px;
     vertical-align: top;
     padding-left: 2px;
+    text-indent: 10px;
 }
 .main .container .pagechoose .pagelist button{
     width: 70px;

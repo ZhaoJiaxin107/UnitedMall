@@ -257,10 +257,12 @@ main .container .paddingpanel .continueorsubmit > button{
     margin-top:26px;
 }
 main .container .paddingpanel .continueorsubmit .continue{
-     color:#f36b11;
      border: 1px solid #f36b11;
      background-color: #ffffff;
      margin-right: 20px;
+}
+main .container .paddingpanel .continueorsubmit .continue > a{
+    color:#f36b11;
 }
 main .container .paddingpanel .continueorsubmit .submit{
     color:#ffffff;
