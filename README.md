@@ -58,5 +58,5 @@ Sprite graph generated website: https://www.toptal.com/developers/css/sprite-gen
 ##### Login Page
 ##### List Page
 ##### Detail Page
-
-Index Page can turn to login/register page from links, user can also jump between login and register page.
+##### Comment Page
+##### Shopping cart page
