@@ -45,11 +45,11 @@ Note: Suitable for small pictures, small ICONS
 Sprite graph generated website: https://www.toptal.com/developers/css/sprite-generator
 
 ### Other Technologies
-·Anchor link
+* Anchor link
 
-·Two columns layout
+* Two columns layout
 
-·CSS3 Pseudo class selector(伪类选择器)
+* CSS3 Pseudo class selector(伪类选择器)
 
 
 ### Combination
