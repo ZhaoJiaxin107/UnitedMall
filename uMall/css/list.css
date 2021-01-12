@@ -166,7 +166,55 @@
     color: #f36b11;
     border:1px dashed #f36b11;
 }
-#phonecontent tr{
+.main .container .filterwrap{
+    border-bottom: 1px solid #e5e4e2;
+}
+.main .container .filterwrap .filteritem{
+    position: relative;
+    background-color: #fcf7f4;
+    border-top: 1px solid #e5e4e2;
+}
+.main .container .filterwrap .filteritem,
+.main .container .filterwrap .filteritem .filtercon ul li a{
+    line-height: 40px;
+    color: #6a6663;
+    font:12px/40px "宋体";
+}
+.main .container .filterwrap .filteritem .filternav{
+    float: left;
+    width: 100px;
+    padding: 0 10px 0 20px;
+}
+.main .container .filterwrap .filteritem .filternav > i{
+    color: #e5b494;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.main .container .filterwrap .filteritem .filtercon{
+    position: relative;
+    background: #ffffff;
+    margin-left: 130px;
+}
+.main .container .filterwrap .filteritem .filtercon .filterlist li{
+    float: left;
+    width: 90px;
+    padding-left: 20px;
+}
+.main .container .filterwrap .filteritem .filtercon .filtermore{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #c6a089;
+    width: 62px;
+    text-align: center;
+    cursor: pointer;
+}
+.main .container .filterwrap .filteritem .filtercon .filtermore > i{
+    vertical-align: middle;
+}
+
+
+/* #phonecontent tr{
     border: 1px solid #EBDFD7;
 }
 #phonecontent td{
@@ -203,7 +251,8 @@
 .main .container .more > a > i{
     font-size: 10px;
     vertical-align:middle;
-}
+} */
+
 /* recommend list */
 .main .container .recommend{
     width: 210px;
